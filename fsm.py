@@ -26,9 +26,9 @@ class InterviewFSM:
         choice = input("Did candidate perform well? (yes/no): ").lower()
         
         if choice == "yes":
-            print("Candidate selected 🎉")
+            print("Candidate selected ")
         else:
-            print("Candidate rejected ❌")
+            print("Candidate rejected ")
         
         self.state = "END"
 
